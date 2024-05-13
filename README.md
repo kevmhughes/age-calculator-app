@@ -11,3 +11,15 @@ Os adjunto la demo para que veaís fácilmente como funciona la app. No inspecci
 4. No os preocupéis por las animaciones de la demo, no hay por qué implementarlas en una primera instancia!
 
 ## Pregunta 1: Describe con lenguaje natural que tiene que hacer la app.
+
+- fill the fields
+- (date of birth) capture the values of the fields and place them into variables
+- (actual date) get the actual date and time and place it into variable 
+- compare 
+
+var actualYear = newDate().getFullYear() => "2024"
+var actualMonth = newDate().getMonth() => (0-11) starting in January => 4
+var actualDay = new Date().getDay() => (0-6) starting on Sunday => 1
+
+
+
