@@ -31,25 +31,29 @@
       <div class="calculator__user-input">
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Day</p>
-          <input class="input-blok__input input-days" type="number" placeholder="DD" min="1">
-          <p class="input-blok__text-error">text error</p>
+          <input class="input-blok__input input-days" type="number" placeholder="DD">
+          <p class="error-days">Must be a valid date</p>
+          <p class="input-blok__text-error">Must be a valid date</p>
+          
         </div>
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Month</p>
-          <input class="input-blok__input input-months" type="number" placeholder="MM" min="1">
+          <input class="input-blok__input input-months" type="number" placeholder="MM">
+          <p class="error-months">Must be a valid month</p>
           <p class="input-blok__text-error">text error</p>
         </div>
         <div class="calculator__input-blok input-blok">
           <p class="input-blok__text">Year</p>
-          <input class="input-blok__input input-years" type="number" placeholder="YYYY" min="1">
+          <input class="input-blok__input input-years" type="number" placeholder="YYYY">
+          <p class="error-years">Must be a valid year</p>
           <p class="input-blok__text-error">text error</p>
         </div>
         <button class="calculator__user-input-btn"></button>
       </div>
       <div class="calculator__output output">
-        <div class="output__text output-years"><span id="output-years">- -</span>years</div>
-        <div class="output__text output-months"><span>- -</span>months</div>
-        <div class="output__text output-days"><span>- -</span>days</div>
+        <div class="output__text output-years"><span id="output-years">- -</span><span class="" id="text-output-years" style="color: black">years</span></div>
+        <div class="output__text output-months"><span id="output-months">- -</span><span class="" id="text-output-months" style="color: black">months</span></div>
+        <div class="output__text output-days"><span id="output-days">- -</span><span class="" id="text-output-days" style="color: black">days</span></div>
       </div>
     </div>
   </main>

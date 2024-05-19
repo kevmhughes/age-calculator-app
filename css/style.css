@@ -191,3 +191,32 @@
   flex-direction: column;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */
+
+
+/* ADDED CSS */
+.error-days{
+    font-size: 7px;
+    color: red;
+    opacity: 75%;
+    display: none;
+    position: relative;
+    top: -25px;
+}
+
+.error-months{
+  font-size: 7px;
+  color: red;
+  opacity: 75%;
+  display: none;
+  position: relative;
+  top: -25px;
+}
+
+.error-years{
+  font-size: 7px;
+  color: red;
+  opacity: 75%;
+  display: none;
+  position: relative;
+  top: -25px;
+}
